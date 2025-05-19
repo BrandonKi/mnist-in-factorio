@@ -4,6 +4,8 @@ An implementation of MNIST in Factorio.
 
 Demo Video: ![link](https://github.com/BrandonKi/mnist-in-factorio/raw/refs/heads/main/media/demo_final.mp4)
 
+https://github.com/user-attachments/assets/0b892e42-d5a7-46c6-9346-37f707f79fbd
+
 Part of my goal was keeping the network small, so I had to make some tradeoffs, but I was still able to get over 92% test accuracy. The network ended up being 950 parameters and not using convolutions, just three fully connected layers, the first two using ReLU activations and the last using an argmax (equivalent to softmax in this case). Scaling the network up would be an easy way to get better results, but it went against my self-imposed challenge, so I decided not to for now (planned for the future!).
 
 #### Full Annotated Network:
