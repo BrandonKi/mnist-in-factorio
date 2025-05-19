@@ -2,15 +2,24 @@
 
 An implementation of MNIST in Factorio.
 
-Demo Video: ![link](./media/demo_final.mp4)
+Demo Video: ![link](https://github.com/BrandonKi/mnist-in-factorio/raw/refs/heads/main/media/demo_final.mp4)
 
 Part of my goal was keeping the network small, so I had to make some tradeoffs, but I was still able to get over 92% test accuracy. The network ended up being 950 parameters and not using convolutions, just three fully connected layers, the first two using ReLU activations and the last using an argmax (equivalent to softmax in this case). Scaling the network up would be an easy way to get better results, but it went against my self-imposed challenge, so I decided not to for now (planned for the future!).
 
-Full Annotated Network: ![link](./media/full_annotated_model.png)
+#### Full Annotated Network:
 
-Diagram: ![link](./media/diagram.png)
 
-Annotated Linear Layer: ![link](./media/factorio_annotated.png)
+![link](./media/factorio_annotated.png)
+
+#### Diagram:
+
+
+![link](./media/diagram.png)
+
+#### Annotated Linear Layer:
+
+
+![link](./media/annotated_linear_layer.png)
 
 The network was trained using PyTorch then the weights were exported as constant combinators using the blueprint json format. The matrix multiplications were manually designed and built though (based off MAC units). Here is some of the matrix multiplication design progression for anyone interested: https://imgur.com/a/yDWehWp
 
