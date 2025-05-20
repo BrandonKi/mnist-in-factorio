@@ -1,6 +1,8 @@
 # MNIST in Factorio
 
-An implementation of MNIST in Factorio.
+A fully functional neural network that solves the MNIST digit classification task, built entirely within Factorio!
+
+The model is trained using PyTorch, then the weights are translated into an in-game blueprint.
 
 Demo Video: ![link](https://github.com/BrandonKi/mnist-in-factorio/raw/refs/heads/main/media/demo_final.mp4)
 
