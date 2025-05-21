@@ -4,7 +4,7 @@ A fully functional neural network that solves the MNIST digit classification tas
 
 The model is trained using PyTorch, then the weights are translated into an in-game blueprint.
 
-Demo Video: ![link](https://github.com/BrandonKi/mnist-in-factorio/raw/refs/heads/main/media/demo_final.mp4)
+Demo Video:
 
 
 https://github.com/user-attachments/assets/cc92df0d-69d4-4587-82a2-15fd029d569d
